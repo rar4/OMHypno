@@ -27,8 +27,8 @@ export function Footer() {
           textDecoration: 'none',
         }}
       >
-        Sarah{' '}
-        <span style={{ color: '#b8975a', fontStyle: 'italic' }}>Ellwood</span>
+        Oleksandr{' '}
+        <span style={{ color: '#b8975a', fontStyle: 'italic' }}>Mishchenko</span>
       </Link>
 
       <ul
@@ -39,10 +39,9 @@ export function Footer() {
         }}
       >
         {[
-          { href: '/about', label: 'About Me' },
-          { href: '/#services', label: 'Services' },
-          { href: '/reviews', label: 'Reviews' },
-          { href: '/contact', label: 'Contact' },
+          { href: '/home', label: 'Home' },
+          { href: '/about', label: 'O mnie' },
+          { href: '/contact', label: 'Kontakt' },
         ].map(({ href, label }) => (
           <li key={href}>
             <Link
@@ -69,7 +68,7 @@ export function Footer() {
           letterSpacing: '0.04em',
         }}
       >
-        &copy; 2024 Sarah Ellwood Hypnotherapy. All rights reserved.
+        &copy; 2027 Oleksandr Mishchenko Hypnotherapy. All rights reserved.
       </p>
 
       <style jsx>{`

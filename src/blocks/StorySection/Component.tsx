@@ -24,11 +24,11 @@ export const StorySectionComponent: React.FC<Props> = ({
       </div>
 
       <div className="story-text">
-        <p className="reveal" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.3rem', fontWeight: 300, color: '#f0e6d0', lineHeight: 1.65, fontStyle: 'italic', marginBottom: '2rem' }}>{introQuote}</p>
+        <p className="reveal" style={{ fontFamily: 'var(--font-serif)', fontSize: '1.5rem', fontWeight: 300, color: '#f0e6d0', lineHeight: 1.65, fontStyle: 'italic', marginBottom: '2rem' }}>{introQuote}</p>
         {paragraphs.map((p, i) => (
-          <p key={i} className={`reveal${i > 0 ? ` reveal-delay-${Math.min(i, 3)}` : ''}`} style={{ fontSize: '0.95rem', fontWeight: 300, color: '#c8b89a', lineHeight: 1.9, marginBottom: '1.4rem' }}>{p.text}</p>
+          <p key={i} className={`reveal${i > 0 ? ` reveal-delay-${Math.min(i, 3)}` : ''}`} style={{ fontSize: '1.2rem', fontWeight: 300, color: '#c8b89a', lineHeight: 1.9, marginBottom: '1.4rem' }}>{p.text}</p>
         ))}
-        <div className="pull-quote reveal reveal-delay-2" style={{ borderLeft: '2px solid #b8975a', padding: '0.8rem 1.5rem', margin: '2.5rem 0', fontFamily: 'var(--font-serif)', fontStyle: 'italic', fontSize: '1.15rem', color: '#f0e6d0', lineHeight: 1.6 }}>
+        <div className="pull-quote reveal reveal-delay-2" style={{ borderLeft: '2px solid #b8975a', padding: '0.8rem 1.5rem', margin: '2.5rem 0', fontFamily: 'var(--font-serif)', fontStyle: 'italic', fontSize: '1.5rem', color: '#f0e6d0', lineHeight: 1.6 }}>
           {pullQuote}
         </div>
       </div>

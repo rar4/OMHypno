@@ -32,11 +32,11 @@ export const ContactBlockComponent: React.FC<Props> = ({
           <p className="info-intro reveal reveal-delay-1">{introText}</p>
 
           <div className="info-items reveal reveal-delay-2">
-            <InfoItem icon={LocationIcon} label="Practice Location" value={contactDetails.address} sub={contactDetails.addressExtra} />
-            <InfoItem icon={PhoneIcon} label="Phone" value={contactDetails.phone} sub={contactDetails.phoneHours} isLink />
+            <InfoItem icon={LocationIcon} label="Siedziba" value={contactDetails.address} sub={contactDetails.addressExtra} />
+            <InfoItem icon={PhoneIcon} label="Telefon" value={contactDetails.phone} sub={contactDetails.phoneHours} isLink />
             <InfoItem icon={EmailIcon} label="Email" value={contactDetails.email} sub={contactDetails.emailExtra} isEmail />
-            <InfoItem icon={MonitorIcon} label="Online Sessions" value={contactDetails.onlineInfo} sub={contactDetails.onlineExtra} />
-            <InfoItem icon={ClockIcon} label="Session Duration" value={contactDetails.sessionDuration} sub={contactDetails.sessionExtra} />
+            <InfoItem icon={MonitorIcon} label="Sessje Onlajn" value={contactDetails.onlineInfo} sub={contactDetails.onlineExtra} />
+            <InfoItem icon={ClockIcon} label="Długość Sessji" value={contactDetails.sessionDuration} sub={contactDetails.sessionExtra} />
           </div>
 
           <div className="availability-tag reveal reveal-delay-3">
@@ -51,33 +51,33 @@ export const ContactBlockComponent: React.FC<Props> = ({
               <p className="form-sub">{formSubheading}</p>
 
               <div className="form-row">
-                <FormGroup label="First Name" required><input type="text" placeholder="Jane" /></FormGroup>
-                <FormGroup label="Last Name"><input type="text" placeholder="Smith" /></FormGroup>
+                <FormGroup label="Imie" required><input type="text" placeholder="Jane" /></FormGroup>
+                <FormGroup label="Nazwisko"><input type="text" placeholder="Smith" /></FormGroup>
               </div>
-              <FormGroup label="Email Address" required><input type="email" placeholder="jane@example.com" /></FormGroup>
-              <FormGroup label="Phone Number"><input type="tel" placeholder="+44 (0)7700 000000" /></FormGroup>
+              <FormGroup label="Addres Email" required><input type="email" placeholder="jane@example.com" /></FormGroup>
+              <FormGroup label="Numer Telefonu"><input type="tel" placeholder="+44 (0)7700 000000" /></FormGroup>
 
-              <FormGroup label="What brings you here?">
+              <FormGroup label="Przyczyna kontaktu">
                 <select>
                   <option value="" disabled>Select an area…</option>
                   {['Anxiety or Stress', 'Phobias or Fears', 'Sleep Problems', 'Self-Confidence', 'Habits (Smoking, Eating, etc.)', 'Trauma or PTSD', 'Something else', 'Not sure yet'].map(o => <option key={o}>{o}</option>)}
                 </select>
               </FormGroup>
 
-              <FormGroup label="Preferred session format">
+              <FormGroup label="Typ sessji">
                 <div className="radio-group">
-                  {['In-Person (London)', 'Online (Zoom / Teams)', 'Either works for me'].map(o => (
+                  {['Personalnie (Poznań)', 'Online (Zoom / Teams)', 'Obojętnie'].map(o => (
                     <label key={o} className="radio-label"><input type="radio" name="format" defaultChecked={o === 'In-Person (London)'} /> {o}</label>
                   ))}
                 </div>
               </FormGroup>
 
-              <FormGroup label="Anything you'd like to share (optional)">
-                <textarea placeholder="A brief description of what you're hoping to work on…" />
+              <FormGroup label="Dodatkowe informacje (opcjonalne)">
+                <textarea placeholder="Napisz coś o sobie, co muszę wiedzieć" />
               </FormGroup>
 
               <p className="form-notice">{noticeText}</p>
-              <button className="btn-submit" onClick={handleSubmit}>Send My Enquiry</button>
+              <button className="btn-submit" onClick={handleSubmit}>Wyślij</button>
             </div>
           ) : (
             <div style={{ textAlign: 'center', padding: '3rem 1rem' }}>

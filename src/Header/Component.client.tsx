@@ -43,8 +43,8 @@ export const HeaderClient: React.FC = () => {
           textDecoration: 'none',
         }}
       >
-        Sarah{' '}
-        <span style={{ color: '#b8975a', fontStyle: 'italic' }}>Ellwood</span>
+        Oleksandr{' '}
+        <span style={{ color: '#b8975a', fontStyle: 'italic' }}>Mishchenko</span>
       </Link>
 
       <ul
@@ -57,10 +57,10 @@ export const HeaderClient: React.FC = () => {
         className="nav-links-desktop"
       >
         {[
-          { href: '/about', label: 'About Me' },
-          { href: '/#services', label: 'Services' },
-          { href: '/#process', label: 'How It Works' },
-          { href: '/reviews', label: 'Reviews' },
+          { href: '/home', label: 'Home' },
+          { href: '/about', label: 'O Mnie' },
+          { href: '/#process', label: 'Jak to działa' },
+          { href: '/contact', label: 'Kontakt' },
         ].map(({ href, label }) => (
           <li key={href}>
             <Link
@@ -96,7 +96,7 @@ export const HeaderClient: React.FC = () => {
               transition: 'all 0.25s',
             }}
           >
-            Book a Session
+            Zapisz Się na konsultację
           </Link>
         </li>
       </ul>
