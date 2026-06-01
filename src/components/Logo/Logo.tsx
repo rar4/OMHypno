@@ -13,8 +13,8 @@ export const Logo = (props: Props) => {
       href="/"
       className={`font-[var(--font-serif)] font-light text-[1.25rem] tracking-[0.06em] text-[#f0e6d0] no-underline ${className || ''}`}
     >
-      Sarah{' '}
-      <span className="text-[#b8975a] italic">Ellwood</span>
+      Oleksandr{' '}
+      <span className="text-[#b8975a] italic">Mishchenko</span>
     </Link>
   )
 }

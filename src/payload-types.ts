@@ -311,6 +311,7 @@ export interface Page {
         title?: string | null;
         subtitle?: string | null;
         introQuote?: string | null;
+        img?: string | null;
         paragraphs?:
           | {
               text: string;
@@ -1254,6 +1255,7 @@ export interface PagesSelect<T extends boolean = true> {
               title?: T;
               subtitle?: T;
               introQuote?: T;
+              img?: T;
               paragraphs?:
                 | T
                 | {

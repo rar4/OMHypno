@@ -7,117 +7,117 @@ async function seed({ payload, req }: { payload: any; req: any }) {
   const homeContent = [
     {
       blockType: 'heroBlock',
-      tag: 'Clinical Hypnotherapy & Mindwork',
-      heading: 'Quiet the noise.\nReclaim yourself.',
+      tag: 'Hipnoterapia Kliniczna & Mindwork',
+      heading: 'Uspokój myśli.\nOdzyskaj siebie.',
       subtitle:
-        'I help people break free from anxiety, phobias, and old patterns — using evidence-based hypnotherapy that works at the level where change actually happens.',
-      primaryButton: { label: 'Book a Free Consultation', url: '/contact' },
-      secondaryButton: { label: 'About Me', url: '/about' },
+        'Pomagam ludziom uwolnić się od lęku, fobii i starych schematów — przy użyciu dowodowej hipnoterapii działającej na poziomie, gdzie zmiana naprawdę się dzieje.',
+      primaryButton: { label: 'Umów darmową konsultację', url: '/contact' },
+      secondaryButton: { label: 'O mnie', url: '/about' },
     },
     {
       blockType: 'introSection',
-      sectionTag: 'What Is Hypnotherapy',
-      heading: 'A gentle shift in perspective',
-      headingEmphasis: 'perspective',
+      sectionTag: 'Czym jest Hipnoterapia',
+      heading: 'Delikatna zmiana perspektywy',
+      headingEmphasis: 'perspektywy',
       paragraph1:
-        'Hypnotherapy is a collaborative, evidence-based therapy that uses a deeply relaxed state of focused awareness to access the part of your mind where habits, beliefs, and emotional responses are stored.',
+        'Hipnoterapia to współpraca oparta na dowodach, terapia używająca głęboko zrelaksowanego stanu skoncentrowanej uwagi, aby uzyskać dostęp do części umysłu, gdzie przechowywane są nawyki, przekonania i odpowiedzi emocjonalne.',
       paragraph2:
-        "It's not sleep. It's not losing control. It's a natural, guided state — similar to the flow you feel when absorbed in a book — where we gently work with your subconscious to create lasting change.",
+        'To nie jest sen. To nie jest utrata kontroli. To naturalny, prowadzony stan — podobny do poczucia foku, gdy czytasz ciekawą książkę — w którym delikatnie pracujemy z Twoim podświadomym, aby stworzyć trwałą zmianę.',
       paragraph3:
-        'Sessions are warm, conversational, and completely tailored to you. Most clients feel noticeable shifts within just a few visits.',
-      linkLabel: 'Learn more about my approach',
+        'Sesje są ciepłe, konwersacyjne i całkowicie dostosowane do Ciebie. Większość klientów odczuwa zauważalne zmiany już po kilku wizytach.',
+      linkLabel: 'Dowiedz się więcej o mojej metodzie',
       linkUrl: '/about',
       stats: [
-        { number: '12+', label: 'Years Experience' },
-        { number: '800+', label: 'Clients Helped' },
-        { number: '96%', label: 'Feel Better After 3 Sessions' },
-        { number: '100%', label: 'Fully Confidential' },
+        { number: '12+', label: 'Lat Doświadczenia' },
+        { number: '800+', label: 'Pomagam Ludziom' },
+        { number: '96%', label: 'Lepiej po 3 Sesjach' },
+        { number: '100%', label: 'Całkowita Poufność' },
       ],
     },
     {
       blockType: 'servicesSection',
-      sectionTag: 'Areas I Help With',
-      heading: 'What brings people to my door',
-      headingEmphasis: 'to my door',
+      sectionTag: 'Obszary, w których Pomagam',
+      heading: 'Co przynosi ludzie do mojej praktyki',
+      headingEmphasis: 'do mojej praktyki',
       description:
-        'Each session is bespoke. These are the most common areas where hypnotherapy creates remarkable, lasting change.',
+        'Każda sesja jest inna. To najczęstsze obszary, w których hipnoterapia tworzy zauważalne, trwałe zmiany.',
       services: [
         {
-          title: 'Anxiety & Stress',
-          description: 'Learn to quiet the over-active mind and step out of the cycle of worry that keeps you stuck.',
+          title: 'Lęk i Stres',
+          description: 'Naucz się uspokoić nadaktywny umysł i wyjść ze stanu ciągłego martwienia.',
           icon: 'anxiety',
         },
         {
-          title: 'Phobias & Fears',
-          description: 'Gently dissolve the unconscious roots of specific fears — from flying to public speaking.',
+          title: 'Fobie i Strachy',
+          description: 'Delikatnie rozpuszcz korzenie nieświadomych lęków — od latania po wystąpienia publiczne.',
           icon: 'phobia',
         },
         {
-          title: 'Sleep & Insomnia',
-          description: 'Restore your natural relationship with sleep and wake up genuinely rested.',
+          title: 'Sen i Bezsenność',
+          description: 'Przywróć naturalną relację ze snem i obudzaj się naprawdę wypoczęty.',
           icon: 'sleep',
         },
         {
-          title: 'Self-Confidence',
-          description: 'Build genuine, embodied confidence that carries into interviews, relationships, and life.',
+          title: 'Pewność Siebie',
+          description: 'Buduj autentyczną, odczuwaną pewność siebie, która przenosi się na rozmowy kwalifikacyjne, relacje i życie.',
           icon: 'confidence',
         },
         {
-          title: 'Habits & Addictions',
-          description: 'Smoking, emotional eating, nail-biting — rewire the habits that no longer serve you.',
+          title: 'Nawyki i Uzależnienia',
+          description: 'Palenie, emocjonalne jedzenie, mruczenie — przepisz nawyki, które już nie służą.',
           icon: 'habits',
         },
         {
-          title: 'Trauma & PTSD',
-          description: 'A safe, gentle approach to processing difficult experiences and reclaiming peace.',
+          title: 'Trauma i PTSD',
+          description: 'Bezpieczne, delikatne podejście do przetwarzania trudnych doświadczeń i odzyskiwania spokoju.',
           icon: 'trauma',
         },
       ],
     },
     {
       blockType: 'processSection',
-      sectionTag: 'The Process',
-      heading: 'Simple. Guided. Transformative.',
-      headingEmphasis: 'Transformative.',
+      sectionTag: 'Proces',
+      heading: 'Proste. Prowadzone. Transformujące.',
+      headingEmphasis: 'Transformujące.',
       steps: [
         {
           number: 'I',
-          title: 'Free Consultation',
+          title: 'Darmowa Konsultacja',
           description:
-            "We start with an open, judgement-free conversation. I'll listen carefully, understand your goals, and explain exactly what to expect.",
+            'Zaczynamy od otwartej, bezkrytycznej rozmowy. Dokładnie posłucham, zrozumiem Twoje cele i wyjaśnię, czego możesz się spodziewać.',
         },
         {
           number: 'II',
-          title: 'Bespoke Sessions',
+          title: 'Spersonalizowane Sesje',
           description:
-            'Each session is tailored around you. We work at a pace that feels right, combining hypnotherapy with practical tools for lasting change.',
+            'Każda sesja jest dostosowana do Ciebie. Pracujemy w tempie, które czujesz jako właściwe, łącząc hipnoteriapię z praktycznymi narzędziami dla trwałej zmiany.',
         },
         {
           number: 'III',
-          title: 'Lasting Change',
+          title: 'Trwała Zmiana',
           description:
-            'Most clients notice meaningful shifts within 3–5 sessions. You\'ll leave with techniques to reinforce your progress every day.',
+            'Większość klientów odczuwa znaczące zmiany w ciągu 3-5 sesji. Zostaniesz z technikami, które pomogą utrwalić Twój postęp każdego dnia.',
         },
       ],
     },
     {
       blockType: 'testimonialBlock',
       quote:
-        '"I came to Sarah convinced nothing would shift the panic attacks I\'d had for seven years. After four sessions, I genuinely felt like a different person. Not a \'fixed\' person — a free one."',
+        '"Przyszłam do Sarah, przekonana, że nic nie zmieni ataki lękowe, które miałam od siedmiu lat. Po czterech sesjach naprawdę poczułam się jak inna osoba. Nie "naprawiona" — a wolna.',
       authorName: 'Miriam T.',
-      authorDetail: 'Anxiety & Panic, London',
+      authorDetail: 'Lęk i Panika, London',
       stars: 5,
-      ctaLabel: 'Read all reviews →',
+      ctaLabel: 'Czytaj wszystkie opinie →',
       ctaUrl: '/reviews',
     },
     {
       blockType: 'ctaBand',
-      sectionTag: 'Take the first step',
-      heading: 'Ready to feel different?',
-      headingEmphasis: 'different?',
+      sectionTag: 'Zrób pierwszy krok',
+      heading: 'Gotów czujesz się inaczej?',
+      headingEmphasis: 'inaczej?',
       description:
-        "The first conversation is completely free, and completely without pressure. Let's find out if we're a good fit.",
-      buttonLabel: 'Book Your Free Consultation',
+        'Pierwsza rozmowa jest całkowicie darmowa i bez presji. Porozmawiajmy i sprawdźmy, czy będziemy dobrą para.',
+      buttonLabel: 'Umów darmową konsultację',
       buttonUrl: '/contact',
     },
   ]
@@ -125,216 +125,216 @@ async function seed({ payload, req }: { payload: any; req: any }) {
   const aboutContent = [
     {
       blockType: 'pageHeader',
-      tag: 'About Me',
-      heading: 'The person behind\nthe practice',
-      headingEmphasis: 'practice',
+      tag: 'O mnie',
+      heading: 'Osoba stojąca za\npraktyką',
+      headingEmphasis: 'praktyką',
       lead:
-        "I'm Sarah — a clinical hypnotherapist with over twelve years of experience helping people move from where they are to where they want to be.",
+        'Jestem Sarah — kliniczna hipnoterapeutka z ponad dwunastu lat doświadczenia w pomaganiu ludziom przejść od tego, gdzie są, do tego, gdzie chcą być.',
     },
     {
       blockType: 'storySection',
       name: 'Sarah Ellwood',
-      title: 'Clinical Hypnotherapist · London',
-      subtitle: 'GHR Registered · NCH Member',
+      title: 'Kliniczna Hipnoterapeutka · London',
+      subtitle: 'GHR Zarejestrowana · Członek NCH',
       introQuote:
-        "\"I came to hypnotherapy not as a therapist, but as a client — someone who had tried everything else and hadn't found what she was looking for.\"",
+        '"Przyszłam do hipnoterapii nie jako terapeutka, ale jako klientka — ktoś, kto wszystko spróbowała i nie znalazła tego, czego szukała.',
       paragraphs: [
         {
-          text: 'After years working in a high-pressure corporate environment, anxiety had quietly become the backdrop of my life. Therapy helped me understand it. Hypnotherapy helped me change it. That distinction — between understanding and transforming — is what drives everything I do now.',
+          text: 'Po latach pracy w korporacji przy dużym nacisku, lęk cicho stał się tłem mojego życia. Terapia pomogła mi to zrozumieć. Hipnoterapia pomogła mi to zmienić. Ta różnica — między zrozumieniem a przemianą — napędza wszystko, co robię teraz.',
         },
         {
-          text: 'I trained with the London College of Clinical Hypnosis and have since completed advanced programmes in trauma-informed practice, cognitive hypnotherapy, and solution-focused therapy. Over twelve years, I\'ve worked with more than 800 clients — from teenagers to retirees, professionals to parents — each with their own story.',
+          text: 'Szkolenia ukończyłam w London College of Clinical Hypnosis i od tego czasu ukończyłam zaawansowane programy w obszarze praktyki terapeutycznej, kognitywnej hipnoterapii i terapii skoncentrowanej na rozwiązaniach. Przez dwanaście lat pracowałam z ponad 800 klientami — od nastolatków po emerytów, od profesjonalistów po rodziców — każdy z własną historią.',
         },
         {
-          text: "My approach blends evidence-based hypnotherapy with elements of NLP, mindfulness, and parts-based therapy. But more than any technique, what shapes my work is the belief that you already have everything you need. My job is simply to help you access it.",
+          text: 'Moja metoda łączy dowodową hipnoteriapię z elementami NLP, uważnością i terapii opartą na częściach. Ale więcej niż jakąkolwiek technikę, to co kształtuje moją pracę jest wiara, że już masz wszystko, czego potrzebujesz. Moja robota polega po prostu na pomaganiu Ci do tego dobrać się.',
         },
         {
-          text: 'Sessions take place in my calm, private practice in Central London, and online for those who prefer it. I offer a free 30-minute consultation before we begin — no obligation, just a conversation.',
+          text: 'Sesje odbywają się w mojej spokojnej, prywatnej praktyce w centrum Londynu, a także online dla tych, którzy wolą to. Oferuję darmową, 30-minutową konsultację przed rozpoczęciem — bez zobowiązań, po prostu rozmowę.',
         },
       ],
       pullQuote:
-        '"Understanding why you feel a certain way is valuable. Being free from it is something else entirely."',
+        '"Zrozumienie, dlaczego czujesz się na określony sposób, jest cenne. Bycie wolnym od tego czegoś jest czegoś więcej.',
     },
     {
       blockType: 'credentialsSection',
-      sectionTag: 'Qualifications & Training',
-      heading: 'Grounded in evidence & experience',
-      headingEmphasis: 'evidence & experience',
+      sectionTag: 'Kwalifikacje i Szkolenia',
+      heading: 'Zakorzenione w dowodach i doświadczeniu',
+      headingEmphasis: 'dowodach i doświadczeniu',
       credentials: [
         {
           year: '2012',
-          title: 'Diploma in Clinical Hypnotherapy',
+          title: 'Dyplom w Hipnoterapii Klinicznej',
           description:
-            'London College of Clinical Hypnosis — LCCH. Full clinical training covering therapeutic hypnosis, psychotherapy, and counselling.',
+            'London College of Clinical Hypnosis — LCCH. Pełne szkolenie kliniczne obejmujące terapeutyczną hipnozę, psychoterapię i doradztwo.',
         },
         {
           year: '2014',
-          title: 'Advanced Cognitive Hypnotherapy',
+          title: 'Zaawansowana Hipnoterapia Kognitywna',
           description:
-            'Quest Institute, London. Post-graduate training integrating cognitive-behavioural models with hypnotic techniques.',
+            'Quest Institute, London. Szkolenie podyplomowe łączące modele poznawczo-behawioralne z technikami hipnotycznymi.',
         },
         {
           year: '2016',
-          title: 'Trauma-Informed Practice Certificate',
+          title: 'Certyfikat Praktyki Terapeutycznej',
           description:
-            'Specialist training in working with complex trauma, PTSD, and adverse childhood experiences.',
+            'Specjalistyczne szkolenie w pracy z complex trauma, PTSD i negatywnymi doświadczeniami z dzieciństwa.',
         },
         {
           year: '2018',
-          title: 'Solution-Focused Brief Therapy',
+          title: 'Terapia Skoncentrowana na Rozwiązaniach',
           description:
-            'BRIEF, London. Qualification in SFBT, enabling fast, goal-directed work alongside hypnotherapy.',
+            'BRIEF, London. Kwalifikacja w SFBT, umożliwiająca szybką, celem skierowaną pracę obok hipnoterapii.',
         },
         {
           year: 'Ongoing',
-          title: 'GHR Registered & NCH Member',
+          title: 'GHR Zarejestrowana & Członek NCH',
           description:
-            'Full registration with the General Hypnotherapy Register and National Council for Hypnotherapy. Bound by their codes of ethics and practice.',
+            'Pełna rejestracja w General Hypnotherapy Register i National Council for Hypnotherapy. Zobowiązana do ich kodeksów etyki i praktyki.',
         },
         {
           year: 'Ongoing',
-          title: 'Continuing Professional Development',
+          title: 'Ciągłe Doskonalanie Zawodowe',
           description:
-            'Minimum 30 hours per year of supervised CPD, keeping practice current with the latest research and approaches.',
+            'Minimum 30 godzin rocznie pod nadzorem CPD, utrzymując praktykę aktualną z najnowszymi badaniami i podejść.',
         },
       ],
     },
     {
       blockType: 'valuesSection',
-      sectionTag: 'My Approach',
-      heading: 'What you can always expect from me',
-      headingEmphasis: 'expect from me',
+      sectionTag: 'Moja Metoda',
+      heading: 'Na co możesz zawsze liczyć ode mnie',
+      headingEmphasis: 'liczyć ode mnie',
       intro:
-        'Every client is different, and every session is shaped around you. But these principles run through everything I do, every time.',
+        'Każdy klient jest inny, a każda sesja jest kształtowana wokół Ciebie. Ale te zasady przebiegają przez wszystko, co robię, za każdym razem.',
       values: [
         {
           number: '01',
-          title: 'Complete Confidentiality',
+          title: 'Całkowita Poufność',
           description:
-            'What you share stays between us. My practice is governed by strict confidentiality codes, and I work in a fully private setting. You can speak freely.',
+            'To, co dzielisz ze mną, pozostaje między nami. Moja praktyka jest regulowana przez surowe kody poufności, i pracuję w w pełni prywatnym otoczeniu. Możesz mówić swobodnie.',
         },
         {
           number: '02',
-          title: 'No Judgement, Ever',
+          title: 'Bez Osądzania, Kiedykolwiek',
           description:
-            'People often come to me carrying shame about what they\'re struggling with. That shame has no place in my practice. You will be met with warmth and genuine curiosity.',
+            'Ludzie przychodzą do mnie z wstydem o tym, z czym się biją. Ten wstyd nie ma miejsca w mojej praktyce. Zostaniesz pozdrowiony z ciepłem i autentyczną ciekawością.',
         },
         {
           number: '03',
-          title: 'Honest, Realistic Expectations',
+          title: 'Szczerze, Realistyczne Oczekiwania',
           description:
-            "I will never promise a cure or make claims that can't be kept. I'll be honest with you about what hypnotherapy can realistically achieve, and how many sessions you might need.",
+            'Nigdy nie obiecam wyleczenia ani nie stawiam niemożliwych twierdzeń. Będę szczery z Tobą co do tego, na co hipnoteria może realnie pozwolić i ilu sesji możesz potrzebować.',
         },
         {
           number: '04',
-          title: 'You Are Always in Control',
+          title: 'Zawsze Kontrolujesz',
           description:
-            'Hypnotherapy is a collaborative process. You cannot be made to do anything against your values or will. Everything happens with your full knowledge and consent.',
+            'Hipnoteria to proces współpracy. Nie możesz zostać skłonowany do czegoś przeciwko swoim wartościom lub woli. Wszystko dzieje się z Twoją pełną wiedzą i zgodą.',
         },
         {
           number: '05',
-          title: 'Evidence-Based Practice',
+          title: 'Praktyka oparta na Dowodach',
           description:
-            'My methods are rooted in research. I stay current through ongoing training and supervision, and I only use approaches that are supported by evidence.',
+            'Moje metody są zakorzenione w badaniach. Pozostaję na bieżąco poprzez ciągłe szkolenie i superwizję, używając tylko podejść popartych dowodami.',
         },
         {
           number: '06',
-          title: 'A Whole-Person View',
+          title: 'Spojrzenie na Całego Człowieka',
           description:
-            "I don't treat symptoms in isolation. I'm interested in you — your life, your context, your strengths — and that shapes every session we have together.",
+            'Nie leczę objawów izolowanie. Jestem zainteresowana w Tobie — Twoim życiem, kontekstem, twoimi mocnymi stronami — i to kształtuje każdą sesję, którą mamy razem.',
         },
       ],
     },
     {
       blockType: 'ctaBand',
-      sectionTag: 'Take the first step',
-      heading: 'Ready to start the conversation?',
-      headingEmphasis: 'conversation?',
+      sectionTag: 'Zrób pierwszy krok',
+      heading: 'Gotów rozpocząć rozmowę?',
+      headingEmphasis: 'rozmowę?',
       description:
-        "The first session is free. No commitment, no pressure — just a chance to meet and see if we're a good fit.",
-      buttonLabel: 'Book Your Free Consultation',
+        'Pierwsza sesja jest darmowa. Bez zobowiązań, bez presji — po prostu szansa, aby się poznać i sprawdzić, czy będziemy dobrą parą.',
+      buttonLabel: 'Umów darmową konsultację',
       buttonUrl: '/contact',
-      secondaryButton: { label: 'Read Client Reviews', url: '/reviews' },
+      secondaryButton: { label: 'Czytaj Opinie Klientów', url: '/reviews' },
     },
   ]
 
   const contactContent = [
     {
       blockType: 'pageHeader',
-      tag: 'Get in Touch',
-      heading: "Let's start the\nconversation",
-      headingEmphasis: 'conversation',
+      tag: 'Kontakt',
+      heading: 'Rozpocznijmy\nrozmowę',
+      headingEmphasis: 'rozmowę',
       lead:
-        "The first step is always the hardest. Fill in the form and I'll be in touch within one working day to arrange your free 30-minute consultation.",
+        'Pierwszy krok jest zawsze najtrudniejszy. Wypełnij formularz i skontaktuję się w ciągu jednego dnia roboczego, aby umówić Twoją darmową, 30-minutową konsultację.',
     },
     {
       blockType: 'contactBlock',
-      sectionHeading: 'What happens next',
-      sectionHeadingEmphasis: 'next',
+      sectionHeading: 'Co się stanie dalej',
+      sectionHeadingEmphasis: 'dalej',
       introText:
-        "After you send your message, I'll reach out within one working day to schedule a free, 30-minute introductory call. There's no obligation and no scripts — just a genuine conversation.",
-      formHeading: 'Book your free consultation',
-      formSubheading: 'All details are kept strictly confidential. I aim to respond within one working day.',
+        'Po wysłaniu wiadomości skontaktuję się w ciągu jednego dnia roboczego, aby umówić darmowe, 30-minutowe spotkanie wstępne. Nie ma zobowiązań ani scenariuszy — tylko autentyczna rozmowa.',
+      formHeading: 'Umów swoją darmową konsultację',
+      formSubheading: 'Wszystkie dane są traktowane poważnie i poufne. Odpowiem w ciągu jednego dnia roboczego.',
       noticeText:
-        'By submitting this form you agree to being contacted by Sarah Ellwood Hypnotherapy. Your information is never shared with third parties and is handled in accordance with GDPR. All communications are strictly confidential.',
+        'Wysyłając ten formularz zgadzasz się na kontakt ze strony Sarah Ellwood Hipnotherapy. Twoje informacje nigdy nie są udostępniane osobom trzecim i są przetwarzane zgodnie z RODO. Wszystkie komunikacje są całkowicie poufne.',
       contactDetails: {
         address: '12 Harley Street, Marylebone\nLondon, W1G 9PG',
-        addressExtra: "Easy access from Oxford Circus & Regent's Park",
+        addressExtra: 'Łatwy dostęp z Oxford Circus & Regent\'s Park',
         phone: '+44 (0)20 7123 4567',
-        phoneHours: 'Mon–Fri, 9am–6pm',
+        phoneHours: 'Pon–Pt, 9:00–18:00',
         email: 'hello@sarahellwood.co.uk',
-        emailExtra: 'Replied within one working day',
-        onlineInfo: 'Available via Zoom or Teams',
-        onlineExtra: 'Equally effective, just more convenient',
-        sessionDuration: '60 minutes (standard)',
-        sessionExtra: 'Free 30-min consultation · 90-min extended available',
+        emailExtra: 'Odpowiedź w ciągu jednego dnia roboczego',
+        onlineInfo: 'Dostępne przez Zoom lub Teams',
+        onlineExtra: 'Równie skuteczne, po prostu wygodniejsze',
+        sessionDuration: '60 minut (standardowo)',
+        sessionExtra: 'Darmowa konsultacja 30 min · 90 min dłuższa dostępna',
       },
     },
     {
       blockType: 'faqBlock',
-      sectionTag: 'Before You Book',
-      heading: 'Questions people often ask',
-      headingEmphasis: 'often ask',
+      sectionTag: 'Zanim Umówisz się',
+      heading: 'Często zadawane pytania',
+      headingEmphasis: 'zadawane pytania',
       faqs: [
         {
-          question: 'Will I be in control during hypnosis?',
+          question: 'Czy będę miał kontrolę podczas hipnozy?',
           answer:
-            'Yes, completely. Hypnotherapy is a collaborative process. You are aware of everything that happens, you can speak, move, or end the session at any time. You cannot be made to do or say anything against your will.',
+            'Tak, całkowicie. Hipnoteria to proces współpracy. Jesteś świadomy wszystkiego, co się dzieje, możesz mówić, poruszać się lub kończyć sesję w dowolnym momencie. Nie możesz zostać skłonowany do czegoś przeciwko swojej woli.',
         },
         {
-          question: 'How many sessions will I need?',
+          question: 'Ile sesji będę potrzebować?',
           answer:
-            "It varies. Specific phobias and habit-based issues often resolve in 1–3 sessions. Anxiety, confidence, and complex issues typically take 4–8 sessions. I'll give you an honest estimate in your free consultation.",
+            'To zależy. Konkretne fobie i problemy oparte na nawykach często ustępują po 1-3 sesjach. Lęk, pewność siebie i złożone problemy zazwyczaj wymagają 4-8 sesji. Dam Ci szczerą ocenę podczas darmowej konsultacji.',
         },
         {
-          question: 'What does hypnosis actually feel like?',
+          question: 'Jak się naprawdę czuje hipnoza?',
           answer:
-            "Most people describe it as deeply relaxed but completely aware — similar to being absorbed in a good book or just before falling asleep. You'll hear everything I say and remember most of the session.",
+            'Większość ludzi opisuje to jako głębokie zrelaksowanie, ale pełną świadomość — podobnie jak gdy czytasz ciekawą książkę lub zaraz przed zasnęciem. Usłyszysz wszystko, co powiem, i zapamiętniesz większość sesji.',
         },
         {
-          question: "Can I be hypnotised if I'm sceptical?",
+          question: 'Czy mogę być hipnotyzowany, jeśli jestem sceptycznym?',
           answer:
-            "Absolutely. Scepticism doesn't prevent hypnotherapy from working. What matters is a willingness to try and a desire for change — you don't need to 'believe in' it for it to be effective.",
+            'Absolutnie. Sceptycyzm nie uniemożliwia hipnoteriapii działanie. To, co ma znaczenie, to chęć spróbowania i pragnienie zmiany — nie musisz wierzyć w to, aby było skuteczne.',
         },
         {
-          question: 'How much does a session cost?',
+          question: 'Ile kosztuje sesja?',
           answer:
-            'Sessions are £120 for 60 minutes. A 90-minute extended session is £165. The initial consultation (30 minutes) is always free. I offer a small number of reduced-rate spaces — please ask if cost is a concern.',
+            'Sesje kosztują £120 za 60 minut. Sesja przedłużona do 90 minut kosztuje £165. Pierwsza konsultacja (30 minut) jest zawsze darmowa. Oferuję kilka miejsc w niższej cenie — poproś, jeśli koszt jest dla Ciebie problemem.',
         },
         {
-          question: 'Do you offer online sessions?',
+          question: 'Czy oferujecie sesje online?',
           answer:
-            'Yes. Online sessions are available via Zoom or Teams and are equally effective. Many of my clients prefer the convenience, and some have never set foot in my practice at all.',
+            'Tak. Sesje online są dostępne przez Zoom lub Teams i równie skuteczne. Wielu moich klientów wolą wygodę, a niektórzy nigdy nie przybyli do mojej praktyki.',
         },
         {
-          question: 'Is everything I say confidential?',
+          question: 'Czy wszystko, co mówię, jest poufne?',
           answer:
-            'Yes. Everything shared in sessions is strictly confidential and governed by the GHR and NCH codes of ethics. The only exceptions — as with all therapists — are situations where there is a serious risk of harm.',
+            'Tak. Wszystko, co dzielimy się w sesjach, jest ściśle poufne i regulowane kodeksami etyki GHR i NCH. Jedynymi wyjątkami — jak u wszystkich terapeutów — są sytuacje, gdy istnieje poważne ryzyko krzywdy.',
         },
         {
-          question: "What if I've tried therapy before and it didn't work?",
+          question: 'Co jeśli próbowałem już terapii i nie pomogło?',
           answer:
-            "Many of my clients come having tried other approaches. Hypnotherapy works differently — it targets the subconscious level where patterns are stored, rather than just examining them cognitively. It's often effective precisely where other methods haven't been.",
+            'Wiele moich klientów przychodzi, mając już doświadczenie z innymi metodami. Hipnoteria działa inaczej — celuje w poziom podświadomości, gdzie przechowywane są schematy, zamiast tylko je analizować. Często działa skutecznie właśnie tam, gdzie inne metody nie pomogły.',
         },
       ],
     },
@@ -343,11 +343,11 @@ async function seed({ payload, req }: { payload: any; req: any }) {
   const reviewsContent = [
     {
       blockType: 'pageHeader',
-      tag: 'Client Reviews',
-      heading: 'Real people,\nreal change',
-      headingEmphasis: 'real change',
+      tag: 'Opinie Klientów',
+      heading: 'Prawdziwi ludzie,\nprawdziwa zmiana',
+      headingEmphasis: 'prawdziwa zmiana',
       lead:
-        "Every review here is from a real client. I share them not to impress, but because I know how hard it is to take that first step — and sometimes, hearing someone else's story helps.",
+        'Każda opinia pochodzi od prawdziwego klienta. Dzielę je nie, aby zrobić wrażenie, ale dlatego, że wiem, jak trudno jest zrobić ten pierwszy krok — i czasem, usłyszenie czyjejś historii pomaga.',
     },
     {
       blockType: 'reviewsBlock',
@@ -358,135 +358,135 @@ async function seed({ payload, req }: { payload: any; req: any }) {
       reviews: [
         {
           quote:
-            '"I came to Sarah convinced nothing would shift the panic attacks I\'d had for seven years. After four sessions, I genuinely felt like a different person. Not a \'fixed\' person — a free one."',
+            '"Przyszłam do Sarah, przekonana, że nic nie usunie ataki lękowe, które miałam od siedmiu lat. Po czterech sesjach naprawdę poczułam się jak inna osoba. Nie "naprawiona" — a wolna.',
           authorName: 'Miriam T.',
           authorLocation: 'London',
-          tag: 'Anxiety & Panic',
+          tag: 'Lęk i Panika',
           category: 'anxiety',
           stars: 5,
-          platform: 'Verified Client · Google Reviews',
+          platform: 'Zweryfikowany Klient · Google Reviews',
           featured: true,
         },
         {
           quote:
-            '"I booked a holiday for the first time in eight years after two sessions. I didn\'t just tolerate the flight — I actually enjoyed looking out the window."',
+            '"Zarezerwowałam wakacje po raz pierwszy po ósmiu latach po dwóch sesjach. Nie tylko wytrzymałam lot — ale naprawdę zasmakowałam patrząc przez okno.',
           authorName: 'James R.',
           authorLocation: 'Surrey',
-          tag: 'Flying Phobia',
+          tag: 'Fobia Lotów',
           category: 'phobia',
           stars: 5,
-          platform: 'Verified Client · Trustpilot',
+          platform: 'Zweryfikowany Klient · Trustpilot',
         },
         {
           quote:
-            '"Three years of waking at 3am every single night. Sarah helped me figure out what was underneath it, and within two weeks I was sleeping through. I still can\'t quite believe it."',
+            '"Trzy lata wstawania o 3am codziennie. Sarah pomogła mi zrozumieć, co stoi za tym, i w ciągu dwóch tygodni zaczęłam spać całą noc. Wciąż nie mogę uwierzyć.',
           authorName: 'Helen W.',
           authorLocation: 'Kent',
-          tag: 'Insomnia',
+          tag: 'Bezsenność',
           category: 'sleep',
           stars: 5,
-          platform: 'Verified Client · Google Reviews',
+          platform: 'Zweryfikowany Klient · Google Reviews',
         },
         {
           quote:
-            '"20 years of smoking, gone after a single session. I expected it to be a battle. It simply wasn\'t. Sarah has a gift."',
+            '"20 lat palenia — minął po jednej sesji. Myślałam, że będzie to walka. Po prostu nie było. Sarah ma dar.',
           authorName: 'David K.',
           authorLocation: 'Essex',
-          tag: 'Smoking Cessation',
+          tag: 'Rzucenie Palenia',
           category: 'habits',
           stars: 5,
-          platform: 'Verified Client · Trustpilot',
+          platform: 'Zweryfikowany Klient · Trustpilot',
         },
         {
           quote:
-            '"I used to physically shake before presenting. I gave a keynote to 400 people last month and felt calm, grounded, even excited. Sarah transformed something I thought was permanent."',
+            '"Dawniej drżałam przed wystąpieniami publicznymi. W ostatni miesiąc dałem przemówienie do 400 osób i czułam spokój, równowagę, nawet ekscytację. Sarah przemieniła to, na co myślałem, że jest trwałe.',
           authorName: 'Priya S.',
           authorLocation: 'London',
-          tag: 'Public Speaking',
+          tag: 'Wystąpienia Publiczne',
           category: 'confidence',
           stars: 5,
-          platform: 'Verified Client · Google Reviews',
+          platform: 'Zweryfikowany Klient · Google Reviews',
         },
         {
           quote:
-            '"I\'d worked with several therapists over the years and made progress, but it was always slow and painful. Sarah\'s approach was different — gentle, collaborative, and faster than anything I\'d tried. I feel like myself again."',
+            '"Pracowałam z kilkoma terapeutami przez lata i robiłam postępy, ale zawsze były powolne i bolesne. Podejście Sarah było inne — delikatne, współpracujące i szybsze niż wszystko, co próbowałam. Czuję, że jestem sobą.',
           authorName: 'Anonymous',
           authorLocation: 'Online Client',
           tag: 'Trauma',
           category: 'trauma',
           stars: 5,
-          platform: 'Verified Client · Direct Feedback',
+          platform: 'Zweryfikowany Klient · Direct Feedback',
         },
         {
           quote:
-            '"The health anxiety was running my life — constant Google searches, doctors visits for nothing, catastrophising every headache. That spiral has completely stopped. I\'m astounded by how different I feel."',
+            '"Lęk zdrowotny kontrolował moje życie — ciągłe wyszukiwania w Google, wizyty u lekarzy bez powodu, katastrofizowanie każdego bólu głowy. Ta spirala całkowicie się zatrzymała. Jestem zdumiona, jak się teraz czuję.',
           authorName: 'Tom B.',
           authorLocation: 'Bristol',
-          tag: 'Health Anxiety',
+          tag: 'Lęk Zdrowotny',
           category: 'anxiety',
           stars: 5,
-          platform: 'Verified Client · Google Reviews',
+          platform: 'Zweryfikowany Klient · Google Reviews',
         },
         {
           quote:
-            '"I didn\'t believe this would work. I told Sarah that in the first session. She just smiled and said \'that\'s fine, you don\'t have to.\' Six weeks later, I\'ve stopped apologising for existing."',
+            '"Nie wierzyłam, że to zadziała. Powiedziałam Sarah to na pierwszej sesji. Po prostu uśmiechnęła się i rzekła "to w porządku, nie musisz". Sześć tygodni później przestałam przeprowadzać się za istnieniem.',
           authorName: 'Rachel O.',
           authorLocation: 'Manchester',
-          tag: 'Self-Confidence',
+          tag: 'Pewność Siebie',
           category: 'confidence',
           stars: 5,
-          platform: 'Verified Client · Trustpilot',
+          platform: 'Zweryfikowany Klient · Trustpilot',
         },
         {
           quote:
-            '"I\'d been comfort eating through stress for fifteen years. Sarah helped me understand what was driving it, not just suppress it. I feel in control for the first time. No diet, no willpower — just peace with food."',
+            '"Jem emocjonalnie przez stres od piętnastu lat. Sarah pomogła mi zrozumieć, co stoi za tym, nie tylko tłumić. Czuję kontrolę po raz pierwszy. Bez diet, bez wytrwałości — po prostu spokój z jedzeniem.',
           authorName: 'Sonia M.',
           authorLocation: 'London',
-          tag: 'Emotional Eating',
+          tag: 'Jedzenie Emocjonalne',
           category: 'habits',
           stars: 5,
-          platform: 'Verified Client · Direct Feedback',
+          platform: 'Zweryfikowany Klient · Direct Feedback',
         },
         {
           quote:
-            '"I\'d been avoiding medical procedures for years because of needle phobia. I had a blood test last week with barely a thought. If you\'d told me that six months ago I\'d have laughed."',
+            '"Unikałem zabiegów medycznych przez lata z powodu fobii igieł. W zeszłym tygodni miałam badanie krwi prawie bez myślenia. Gdybym powiedziała, że szósta temu miło śmiałbym.',
           authorName: 'Chris F.',
           authorLocation: 'Hertfordshire',
-          tag: 'Needle Phobia',
+          tag: 'Fobia Igieł',
           category: 'phobia',
           stars: 5,
-          platform: 'Verified Client · Google Reviews',
+          platform: 'Zweryfikowany Klient · Google Reviews',
         },
         {
           quote:
-            '"The recordings Sarah gave me to listen to at night were a game changer on their own. Combined with the sessions, I went from averaging 4 hours a night to a solid 7. My whole life improved as a result."',
+            '"Nagrania, które Sarah dawała mi słuchać w nocy, były przełomem sam na co dzień. Łącząc je ze sesjami, przeszłam od średnio 4 godzin snu do solidnych 7. Całe moje życie się poprawiło.',
           authorName: 'Natasha P.',
           authorLocation: 'Online Client',
-          tag: 'Insomnia & Anxiety',
+          tag: 'Bezsenność i Lęk',
           category: 'sleep',
           stars: 5,
-          platform: 'Verified Client · Trustpilot',
+          platform: 'Zweryfikowany Klient · Trustpilot',
         },
         {
           quote:
-            '"I was turning down social events, struggling with basic shopping, dreading phone calls. Sarah helped me get my life back step by step. Her manner alone is half the therapy — impossibly calm and reassuring."',
+            '"Odmawiałam wydarzeń społecznych, zmagałam się z podstawowymi zakupami, bałem się rozmów telefonicznych. Sarah pomogła mi odzyskać życie krok po kroku. Jej manierka sama w sobie jest polowaniem — niemożliwie spokojna i uspokajająca.',
           authorName: 'Lena H.',
           authorLocation: 'Cambridge',
-          tag: 'Social Anxiety',
+          tag: 'Lęk Społeczny',
           category: 'anxiety',
           stars: 5,
-          platform: 'Verified Client · Google Reviews',
+          platform: 'Zweryfikowany Klient · Google Reviews',
         },
       ],
     },
     {
       blockType: 'ctaBand',
-      sectionTag: 'Ready to begin?',
-      heading: 'Your story could be next',
-      headingEmphasis: 'Your',
+      sectionTag: 'Gotowy, aby zacząć?',
+      heading: 'Twoja historia może być następną',
+      headingEmphasis: 'Twoja',
       description:
-        'The first consultation is free, relaxed, and completely without pressure.',
-      buttonLabel: 'Book a Free Consultation',
+        'Pierwsza konsultacja jest darmowa, relaksująca i całkowicie bez presji.',
+      buttonLabel: 'Umów darmową konsultację',
       buttonUrl: '/contact',
     },
   ]
